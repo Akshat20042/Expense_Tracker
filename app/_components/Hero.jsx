@@ -23,7 +23,7 @@ export default function Hero() {
             <a
               className="block w-full rounded bg-primary px-12 py-3 text-sm font-medium
                text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-primary sm:w-auto"
-              href="#"
+              href="/sign-in"
             >
               Get Started
             </a>
