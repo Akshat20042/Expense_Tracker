@@ -9,7 +9,7 @@ export default function Header() {
   const { user, isSignedIn } = useUser();
   return (
     <div className="p-5 flex justify-between items-center shadow-md">
-      <Image src={"./logo.svg"} alt="logo" width={120} height={70} />
+      <Image src={"./logo.svg"} alt="logo" width={160} height={100} />
       {isSignedIn ? (
         <UserButton />
       ) : (
